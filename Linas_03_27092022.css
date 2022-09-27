@@ -1,0 +1,16 @@
+/*
+    27 de Septiembre de 2022
+    Autor: Linas Cijunskis Dodonova
+    Hoja de estilo CSS
+*/
+body{
+    border: 10px solid black;
+}
+
+p{
+    color:white;
+    background-color: rgba(199, 31, 31, 0.7);
+    margin: 1%;
+    padding: 20px;
+    border-radius: 25px;
+}
