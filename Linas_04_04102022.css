@@ -1,0 +1,18 @@
+/*
+    Autor: Linas Cijunskis Dodonova
+    04 de Octubre de 2022
+*/
+
+nav{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+img{
+    width: 30%;
+    border: 5px double black;
+    margin: auto;
+    display: block;
+}
