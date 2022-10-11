@@ -2,6 +2,12 @@
     Autor: Linas Cijunskis Dodonova
     08 de Octubre de 2022
 */
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 nav{
     width: 30%;
     margin: auto;

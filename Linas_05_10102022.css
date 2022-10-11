@@ -1,0 +1,48 @@
+/*
+    10 de Octubre de 2022
+    Autor:Linas Cijunskis Dodonova
+    */
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    padding: 25px;
+    float: left;
+}
+
+.negro{
+    color: white;
+    background-color:black;
+    clear: both;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.azul{
+    background-color: blue;
+    border-radius: 100%;
+    padding: 10%;
+}
+
+.roja{
+    background-color: red;
+    padding: 10%;
+    border-radius: 100%;
+}
+
+.amarillo{
+    background-color: yellow;
+    padding: 10%;
+    border-radius: 100%;
+}
+
+.verde{    
+    background-color: green;
+    width: 100%;
+    clear: both;
+    margin-top: 25PX;
+}
+    
