@@ -1,0 +1,53 @@
+/*
+    Autor: Linas Cijunskis Dodonova
+    11 de Octubre de 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.menuh{
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuh a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.menuh a:hover{
+    background-color: black;
+    color: white;
+}
+
+img{
+    float: left;
+    width: 75%;
+}
+
+.menuv{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuv a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuv a:hover{
+    background-color: white;
+    color: black;
+}
+
