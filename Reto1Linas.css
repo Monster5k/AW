@@ -1,0 +1,54 @@
+/*
+    17 de Octubre de 2022
+    Linas Cijunskis Dodonova
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1{
+    color: blue;
+    padding-top: 14px;
+    padding-left: 14px;
+}
+
+body{
+    background-color:rgb(194, 194, 19);
+    border: 2px solid black;
+    padding: 2%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+p{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid white;
+    color: blue;
+    padding-left: 14px;
+}
+
+.rojo{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+
+.amarillo{
+    color: yellow;
+}
+
+pre{
+    color: white;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+img{
+    float: right;
+    width: 20%;
+}
