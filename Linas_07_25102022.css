@@ -1,0 +1,43 @@
+/*
+    Autor: Linas Cijunskis Dodonova
+    25 de octubre de 2022
+*/
+
+*{
+     box-sizing: border-box;
+}
+h1{
+     text-align: center;
+}
+section{
+     width: 80%;
+     margin: auto;
+     border: dashed;
+     padding: 10px;
+}
+ol ol {
+     list-style-type: lower-roman;
+}
+.listaDesordenada{
+     background-color:bisque;
+}
+.listaOrdenada{
+     background-color:cornflowerblue;
+}
+.listaDefinicion{
+     background-color: darkgreen;
+}
+
+ul li{
+    list-style-type: none;
+    background-image: url();
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.Monitor{
+    background-image: url(./IMG/msi\ monitor.jpg);
+}
