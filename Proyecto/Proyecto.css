@@ -23,6 +23,7 @@ img{
 
 body{
     background-image: url("./IMG/Dark\ Souls.jpg");
+    background-repeat: no-repeat;
 }
 
 ul {

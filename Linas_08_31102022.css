@@ -1,0 +1,38 @@
+/*
+    Autor: Linas Cijunskis Dodonova
+    31 de Octubre de 2022
+*/
+
+*{
+    box-sizing: border-box ;
+}
+
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto;
+}
+
+header , footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body{
+    background-image: url(./IMG/trabajo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}

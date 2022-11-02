@@ -30,12 +30,12 @@ ol ol {
 
 ul li{
     list-style-type: none;
-    background-image: url();
-    background-size: 25px;
+    /*background-image: url();*/    
+    background-size: 35px;
     background-repeat: no-repeat;
     background-position: left center;
     background-position-x: -5px;
-    padding: 0px 0px 0px 25px;
+    padding: 20px 20px 20px 25px;
 }
 
 .Monitor{
