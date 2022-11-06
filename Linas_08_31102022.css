@@ -29,10 +29,18 @@ header , footer{
 }
 
 body{
-    background-image: url(./IMG/trabajo2.jpg);
+    background-image: url(./IMG/p8/about_bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-color: grey;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform:scale(0.9);
 }
