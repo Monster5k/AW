@@ -1,0 +1,22 @@
+/*
+    Linas Cijunskis Dodonova
+    07 de Noviembre de 2022
+*/
+
+header{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+
+section{
+    width: 33%;
+    float: left;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
