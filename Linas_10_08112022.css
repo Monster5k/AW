@@ -1,0 +1,37 @@
+/*
+    Hoja de Videos ya audiosbo
+    Linas Cijunskis DOdonova
+    08 de noviembre de 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header,footer{
+    background-image: linear-gradient(to left,green,white,black);
+    background-image: radial-gradient(orange,white);
+    padding: 20px;
+    box-shadow: -5px 5px 5px black;
+    text-shadow: 5px 5px 5px blue;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    margin: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+iframe{
+    width: 600px;
+}
