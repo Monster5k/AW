@@ -29,7 +29,7 @@ ol ol {
 }
 
 ul li{
-    list-style-type: none;
+    list-style-type: lower-greek;
     /*background-image: url();*/    
     background-size: 35px;
     background-repeat: no-repeat;
@@ -38,6 +38,42 @@ ul li{
     padding: 20px 20px 20px 25px;
 }
 
-.Monitor{
-    background-image: url(./IMG/msi\ monitor.jpg);
+.monitor{
+    background-image: url(./IMG/p7/msi\ monitor.jpg);
+}
+
+.placa{
+     background-image: url(./IMG/p7/Placa\ base.jpeg);
+}
+
+.procesador{
+     background-image: url(./IMG/p7/9400F2.jpg)
+}
+
+.disepador{
+     background-image: url(./IMG/p7/cooler.jpg)
+}
+
+.tarjeta{
+     background-image: url(./IMG/p7/rtx.jpg)
+}
+
+.ram{
+     background-image: url(./IMG/p7/ram.jpg)
+}
+
+.m2{
+    background-image: url(./IMG/p7/m.2.jpg); 
+}
+
+.hhd{
+     background-image: url(./IMG/p7/hhd.jpg);
+}
+
+.ssd{
+     background-image: url(./IMG/p7/ssd\ 256gb.jpg);
+}
+
+.fuente{
+     background-image: url(./IMG/p7/fuente\ de\ alimentacion.jpg);
 }
