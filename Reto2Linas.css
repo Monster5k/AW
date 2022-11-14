@@ -1,0 +1,82 @@
+/*
+    Linas Cijunskis Dodonova
+    14 De Noviembre De 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header,footer{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+    border: 5px solid white
+}
+
+@font-face {
+    font-family: "cabeza";
+    src: url(./Textos/LT\ Funk.otf);
+}
+ 
+ header{
+    font-family:"cabeza";
+    font-size: 40px;
+}
+
+footer{
+    font-family: "cabeza";
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 60px;
+    border-radius: 10px;
+}
+ 
+body{
+    background-color:cornflowerblue
+}
+
+.texto1{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+div{
+    padding: 40px;
+}
+
+.texto2{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+
+.texto2 img{
+    width: 50%;
+    border: 3px solid white;
+    margin-right: auto;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform:scale(0.9) rotate(10deg);
+}
