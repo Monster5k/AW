@@ -1,6 +1,6 @@
 /*
     Autor: Linas Cijunskis Dodonova
-    08 de Octubre de 2022
+    21 de Noviembre de 2022
 */
 
 *{
@@ -8,3 +8,78 @@
   box-sizing: border-box;
 }
 
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: ; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+header,footer{
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 4px 4px 4px black;
+  color: #9A8866;
+  border: 5px solid #423B2C
+}
+
+header{
+  font-family:"cabeza";
+  font-size: 40px;
+}
+
+footer{
+  font-family: "cabeza";
+  font-size: 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+body{
+  background-image: url(./img/Escape-from-Tarkov-Free-Download.png);
+  background-repeat: no-repeat;
+}
+
+.texto1{
+  background-color: #333333;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 20px;
+  color: #9A8866;
+}
+
+.texto2{
+  background-color: #333333;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 20px;
+  justify-content: space-between;
+  color: #9A8866;
+}
