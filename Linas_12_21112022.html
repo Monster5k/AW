@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Linas_12_21112022.css">
+    <script>
+        function Mostrar(){
+            var x = document.getElementById("pass");
+            if (x.type == "password") {
+                x.type = "text";
+            }
+
+            else{
+                x.type = "password"
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Formulario HTML5</h1>
+    <form action="contacto.php" method="post" class="formulario" target="_blank">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>
+        <fieldset>
+            <legend>Campos especiales</legend>
+            <input type="color" name="color" id="color">
+            <input type="datetime-local" name="fecha" id="fecha">
+            <input type="file" name="archivo" id="archivo">
+            <input type="range" name="rango" id="rango" value="50">
+        </fieldset>
+        <select name="lista" id="lista" multiple>
+            <option value="España">España</option>
+            <option value="Italia">Italia</option>
+            <option value="Portugal" selected>Portugal</option>
+            <option value="Brasil">Brasil</option>
+        </select>
+        <div class="cajaPass">
+            <input type="password" name="contraseña" id="pass" placeholder="Contraseña">
+            <input type="checkbox" onclick="Mostrar()">
+        </div>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
