@@ -1,0 +1,45 @@
+/*
+    Autor:Linas Cijunskis Dodonova
+    22 de Noviembre del 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#VideoF{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body{
+    background-image: url(./Multimedia/IMG/Fondo\ Mundial\ 2022.jpg);
+    height: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,footer{
+    background-color: beige;
+    padding: 20px;
+    border: dashed;
+    opacity: 0.7;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+h1{
+    text-align: center;
+}
