@@ -1,0 +1,116 @@
+/*
+    Linas Cijunskis Dodonova
+    22 De Noviembre De 2022
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Barra de categorias */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position:0; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Enlances dentro de la barra */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /* Cambiar el color de la barra al poner el raton */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Contenido de Main */
+  .main {
+    margin-top: 30px; /* Agregar un margen superior para evitar la superposición de contenido */
+  }
+
+  .top,.top2,.top3,footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    color: #9A8866;
+    border: 5px solid #423B2C
+  }
+
+  header{
+    font-size: 20px;
+  }
+
+  body{
+    background-image: url(./img/machine-kalash-battlestate-games-escape-from-tarkov-eft-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .texto1,.texto2,.texto3{
+    background-color: #333333;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    color: #9A8866;
+  }
+
+  ul{
+    list-style-type: circle;
+  }
+
+  /*LA TABLA*/
+
+  table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+  }
+
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+div.flotadorizq{
+    float: left;
+    clear: left;
+}
+
+div.flotadorder{
+    float: right;
+    clear: right;
+}
+
+table.flotadorder{
+    clear: right;
+    float: right;
+}
+
+p{
+    margin: 7px 0px;
+}

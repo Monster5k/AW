@@ -8,16 +8,16 @@
   box-sizing: border-box;
 }
 
-/* The navigation bar */
+/* Barra de categorias */
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: ; /* Set the navbar to fixed position */
+  position:0; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
 
-/* Links inside the navbar */
+/* Enlances dentro de la barra */
 .navbar a {
   float: left;
   display: block;
@@ -27,22 +27,21 @@
   text-decoration: none;
 }
 
-/* Change background on mouse-over */
+/* Cambiar el color de la barra al poner el raton */
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
 
-/* Main content */
+/* Contenido de Main */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 30px; /* Añadir contenido por encima del overlay */
 }
 
 header,footer{
   background-color: #000000;
   text-align: center;
   padding: 20px;
-  text-shadow: 4px 4px 4px black;
   color: #9A8866;
   border: 5px solid #423B2C
 }
@@ -64,7 +63,6 @@ body{
   background-image: url(./img/Escape-from-Tarkov-Free-Download.png);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .texto1{
