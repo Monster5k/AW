@@ -46,6 +46,17 @@
     border: 5px solid #423B2C
   }
 
+  h2{
+    border-bottom: 3px solid #9A8866;
+    font-size: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 6px 0;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
   header{
     font-size: 20px;
   }
@@ -56,12 +67,13 @@
     background-size: cover;
   }
 
-  .texto1,.texto2,.texto3{
+  .texto1,.texto2,.texto3,.texto4,.texto5{
     background-color: #333333;
     margin-left: 80px;
     margin-right: 80px;
     padding: 20px;
     color: #9A8866;
+    opacity: 0.9;
   }
 
   ul{
@@ -104,6 +116,7 @@ div.flotadorizq{
 div.flotadorder{
     float: right;
     clear: right;
+    opacity: 1;
 }
 
 table.flotadorder{
@@ -113,4 +126,34 @@ table.flotadorder{
 
 p{
     margin: 7px 0px;
+}
+
+/*Segunda tabla pero facil*/
+
+.preciosmed{
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+}
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    border: 2px solid #9A8866;
+    padding: 10px;
+}
+
+.precio{
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  border: 2px solid #9A8866;
+  padding: 5px;
 }

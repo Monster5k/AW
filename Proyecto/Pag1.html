@@ -32,7 +32,7 @@
 
     </div>
     <br>
-    <header class="top2">Funciones</header>
+    <h2>Funciones</h2>
     <br>
     <div class="texto2">
         <p>
@@ -44,7 +44,7 @@
         </p>
     </div>
     <br>
-    <header class="top3">Efectos de estado específicos de la pieza</header>
+    <h2>Efectos de estado específicos de la pieza</h2>
     <br>
     <div class="texto3">
         <table>
@@ -68,8 +68,145 @@
                                 estimuladores no resulta en la muerte instantánea, pero cualquier daño adicional lo hará.</li>
                         </ul>
                     </td>
-               </tr> 
+               </tr>
+               <tr>
+                    <td>
+                        <div class="flotadorizq">
+                            <img src="./img/brazo derecho.jpg" alt="Brazo derecho" width="80" height="120">
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            <b>Brazo derecho</b>
+                        </p>
+                        <ul>
+                            <li>Fracturado: Utilizar objetos y buscar contenedores es un 50% más lento de lo normal. Recargar, desenfundar y apuntar armas toma un 67% más tiempo.</li>
+                            <li>Destruido: Igual que el anterior, pero el daño adicional recibido se distribuirá entre la salud del cuerpo a 0,7x veces de el daño infligido.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="flotadorizq">
+                            <img src="./img/brazo izquierdo.jpg" alt="Brazo izquierdo" width="80" height="120">
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            <b>Brazo izquierdo</b>
+                        </p>
+                        <ul>
+                            <li>Fracturado: Utilizar objetos y buscar contenedores es un 67% más lento de lo normal. Recargar, desenfundar y apuntar armas toma un 50% más tiempo.</li>
+                            <li>Destruido: Igual que el anterior, pero el daño adicional se distribuirá a la salud total del cuerpo a 0.7x veces de el daño infligido.</li>
+                        </ul>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                        <div class="flotadorizq">
+                            <img src="./img/estomago.jpg" alt="estomago" width="80" height="120">
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            <b>Estomago</b>
+                        </p>
+                        <ul>
+                            <li>No se puede fracturar</li>
+                            <li>Destruido: Incremento masivo en la deshidratación y pérdida de energia, el daño adicional se distribuirá a la salud total del cuerpo a 1.5x veces de el daño infligido.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="flotadorizq">
+                            <img src="./img/Piernas.jpg" alt="Piernas" width="80" height="120">
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            <b>Piernas</b>
+                        </p>
+                        <ul>
+                            <li>Fracturado: Cada pierna fracturada reducirá tu velocidad de movimiento en un 45%. Disminución de la altura del salto. Esprintar causará más daño a la pierna.</li>
+                            <li>Destruido: Igual que el anterior, pero el daño adicional se distribuirá a la salud total del cuerpo a 1x de el daño infligido.</li>
+                        </ul>
+                    </td>
+                </tr>
             </tbody>
+        </table>
+    </div>
+    <br>
+    <h2>Curación de las partes destruidas</h2>
+    <br>
+    <div class="texto4">
+        <p>Las partes del cuerpo destruidas (excepto la cabeza y el tórax) pueden ser restauradas gracias al Kit 
+            compacto de cirugía CMS o al Set quirúrgico de campo Surv12, los kits quirúrgicos restauran una parte 
+            destruida a 1 HP; por lo que su uso debe combinarse con los botiquines para ser efectivos.
+            Las partes destruidas que se restauran con un kit quirúrgico sólo tienen entre el 45% 
+            y el 60% (CMS) o entre el 80 y el 90% (Surv12) de sus HP máximos durante la duración de la incursión,
+             a menos que se vuelva a realizar una cirugía en esa parte del cuerpo, reduciéndola aún más.</p>
+    </div>
+    <br>
+    <h2>Curacion Fuera de Incursion</h2>
+    <br>
+    <div class="texto5">
+        <p>Cuando estés fuera de una incursión ganarás pasivamente salud, hidratación y energía. 
+            Puedes usar Artículos médicos para curarte y Provisiones para consumir como si estuvieras
+            en una incursión. Para empezar ganas 8 HP/Min, 1 Energía/Min, y 1 Hidratación/Min. 
+            Tu ganancia pasiva de estadísticas puede ser incrementada a través de la mejora de los 
+            módulos del Refugio como la Estación Médica para incrementar la regeneración de salud, 
+            la Calefacción para incrementar la regeneración de energía, y el Colector de Agua para 
+            incrementar la recuperación de Hidratación.</p>
+        <p>Therapist también proporciona curación a tu personaje por un precio después de morir o 
+            sobrevivir con los HP perdidos. Para los jugadores de nivel 5 o inferior este servicio es 
+            gratuito, de lo contrario cuesta 25₽/HP y es más barato que cualquier botiquín. La curación 
+            de una hemorragia cuesta 750₽ y la de una fractura 900₽, de nuevo más barato que los objetos 
+            necesarios.</p>
+        <p>Con los precios fijos, el artículo médico mejor valorado es el Kit de primeros auxilios Grizzly.</p>
+        <table class="preciosmed">
+            <tr>
+                <th>Kit de primeros auxilios</th>
+                <th>Precio actual (₽) (Comerciantes)</th>
+                <th>Puntos de salud</th>
+                <th>₽ por HP (redondeado)</th>
+            </tr>
+            <tr>
+                <td class="precio">Kit de primeros auxilios Grizzly</td>
+                <td class="precio">49,836</td>
+                <td class="precio">1,800</td>
+                <td class="precio">28</td>
+            </tr>
+            <tr>
+                <td class="precio">Kit de primeros auxilios para automóvil</td>
+                <td class="precio">7,372</td>
+                <td class="precio">220</td>
+                <td class="precio">34</td>
+            </tr>
+            <tr>
+                <td class="precio">Botiquín AI-2</td>
+                <td class="precio">4,149</td>
+                <td class="precio">100</td>
+                <td class="precio">42</td>
+            </tr>
+            <tr>
+                <td class="precio">Botiquín de primeros auxilios Salewa</td>
+                <td class="precio">23,162</td>
+                <td class="precio">400</td>
+                <td class="precio">58</td>
+            </tr>
+            <tr>
+                <td class="precio">Botiquín táctico de primeros auxilios IFAK</td>
+                <td class="precio">27,202</td>
+                <td class="precio">300</td>
+                <td class="precio">91</td>
+            </tr>
+            <tr>
+                <td class="precio">Botiquín táctico de primeros auxilios AFAK</td>
+                <td class="precio">38,958</td>
+                <td class="precio">400</td>
+                <td class="precio">97</td>
+            </tr>
         </table>
     </div>
 </body>
