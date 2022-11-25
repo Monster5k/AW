@@ -1,6 +1,6 @@
 /*
-    Autor: Linas Cijunskis Dodonova
-    21 de Noviembre de 2022
+  Autor: Linas Cijunskis Dodonova
+  21 de Noviembre de 2022
 */
 
 *{
@@ -118,7 +118,7 @@ main{
   height: auto;
   display: flex;
   justify-content: space-between;
-}
+} 
 
 .container .thumbnail_container .thumbnail{
   width: 80px;
