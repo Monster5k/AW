@@ -37,16 +37,17 @@
         <main>
             <iframe class="trailer" src="https://www.youtube.com/embed/MYYlvMn3khE" title="Escape from Tarkov Beta - 0.12.12 Patch trailer (feat. the Lighthouse)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </main>
+        <br>
         <div class="container">
             <div class="img_container">
-                <img src="img/gampleay1.jpg" alt="" class="main_img">
+                <img src="img/gampleay1.jpg" alt="" class="main_img" id="mainImg">
             </div>
 
             <div class="thumbnail_container">
-                <img src="./img/gampleay1.jpg" alt="" class="thumbnail">
-                <img src="./img/gamplay2.jpg" alt="" class="thumbnail">
-                <img src="./img/gamplay3.jpg" alt="" class="thumbnail">
-                <img src="./img/gamplay4.jpg" alt="" class="thumbnail">
+                <img onclick="cambiarImagen('./img/gampleay1.jpg')" src="./img/gampleay1.jpg" alt="" class="thumbnail">
+                <img onclick="cambiarImagen('./img/gamplay2.jpg')" src="./img/gamplay2.jpg" alt="" class="thumbnail">
+                <img onclick="cambiarImagen('./img/gamplay3.jpg')" src="./img/gamplay3.jpg" alt="" class="thumbnail">
+                <img onclick="cambiarImagen('./img/gamplay4.jpg')" src="./img/gamplay4.jpg" alt="" class="thumbnail">
             </div>
         </div>
     </div>
