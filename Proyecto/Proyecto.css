@@ -63,6 +63,7 @@ body{
   background-image: url(./img/Escape-from-Tarkov-Free-Download.png);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "cabeza";
 }
 
 .texto1{
@@ -103,14 +104,14 @@ main{
 
 /*Container de imagenes*/
 .container .img_container{
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin-bottom: 20px;
   text-align: center;
 }
 .container .img_container .main_img{
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
   box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
   object-fit: cover;
@@ -138,4 +139,10 @@ main{
 .active{
   opacity: 1 !important;
   box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
+
+/*fuente de letras*/
+@font-face {
+  font-family: "cabeza";
+  src: url(./Texto/CrimsonText-Bold.ttf);
 }

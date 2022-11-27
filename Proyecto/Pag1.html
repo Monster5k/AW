@@ -11,8 +11,13 @@
 <body>
     <div class="navbar">
         <a href="./Proyecto.html">Introducion</a>
-        <a href="./Pag1.html">Sistema de Curacion</a>
-        <a href="#contact">Contact</a>
+        <a href="./Pag1.html">Sistema de Curacion y Habilidades de carácter</a>
+        <a href="./Pag2.html">Funcionamiento de armas</a>
+        <div class="audio">
+            <audio loop controls autoplay>
+                <source src="./audio/Prepare for Escape.mp3" type="audio/mp3">
+            </audio>
+        </div>
     </div>
 
     <header class="top">Sistema de Curacion</header>
@@ -25,26 +30,27 @@
         </p>
         <br>
         <ol>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
+            <li><a href="#Funciones">Funciones</a></li>
+            <li><a href="#Efectos">Efectos de estado</a></li>
+            <li><a href="#Destruido">Curacion de las partes destruidas</a></li>
+            <li><a href="#Curacion">Curacion Fuera de Incursion</a></li>
+            <li><a href="#Niveles">Nivelación</a></li>
           </ol>
-
     </div>
     <br>
-    <h2>Funciones</h2>
+    <h2 id="Funciones">Funciones</h2>
     <br>
     <div class="texto2">
         <p>
             <ul>
                 <li>Salud y características físicas, incluyendo hidratación, energía, pérdida de sangre, fracturas, contusión, intoxicación, agotamiento, temblores, etc.</li>
                 <br>
-                <li>Una gran variedad desuministros médicosyprovisionespara mantenerse vivo y concentrado</li>
+                <li>Una gran variedad desuministros médicos y provisiones para mantenerse vivo y concentrado</li>
             </ul>
         </p>
     </div>
     <br>
-    <h2>Efectos de estado específicos de la pieza</h2>
+    <h2 id="Efectos">Efectos de estado específicos de la pieza</h2>
     <br>
     <div class="texto3">
         <table>
@@ -137,7 +143,7 @@
         </table>
     </div>
     <br>
-    <h2>Curación de las partes destruidas</h2>
+    <h2 id="Destruido">Curación de las partes destruidas</h2>
     <br>
     <div class="texto4">
         <p>Las partes del cuerpo destruidas (excepto la cabeza y el tórax) pueden ser restauradas gracias al Kit 
@@ -148,7 +154,7 @@
              a menos que se vuelva a realizar una cirugía en esa parte del cuerpo, reduciéndola aún más.</p>
     </div>
     <br>
-    <h2>Curacion Fuera de Incursion</h2>
+    <h2 id="Curacion">Curacion Fuera de Incursion</h2>
     <br>
     <div class="texto5">
         <p>Cuando estés fuera de una incursión ganarás pasivamente salud, hidratación y energía. 
@@ -209,5 +215,48 @@
             </tr>
         </table>
     </div>
+    <br>
+    <header class="top">Habilidades de carácter</header>
+    <br>
+    <h2 id="Niveles">Nivelacion</h2>
+    <br>
+    <div class="texto6">
+        <p>Escape from Tarkov presenta cinco categorías de habilidades entrenadas a través del uso activo. En resumen, cuanto más uses una habilidad, mejor la conseguirás.</p>
+        <br>
+        <ul>
+            <li>Un nivel máximo de habilidades es 51 (nivel élite). Sin embargo, una habilidad puede superar temporalmente este límite con efectos de estado de ciertos estimulantes y disposiciones.</li>
+                <ol>
+                    <br>
+                    <li>Las habilidades de nivel élite proporcionan mejoras únicas.</li>
+                    <br>
+                    <li>Los efectos de estado temporales nunca pueden llevar una habilidad más allá del nivel 60.</li>
+                </ol>
+            <br>
+            <li>El número de puntos de habilidad para alcanzar el nivel 1 es 10. Después, aumenta en 10 por nivel y tiene un límite de 100 por nivel de habilidad.</li>
+            <br>
+            <li>Algunas misiones otorgan niveles de habilidad como recompensa.</li>
+                <ol>
+                    <br>
+                    <li>A veces, vale la pena evitar completar una misión hasta que una habilidad sea de al menos nivel 10 para garantizar que la misión recompense el máximo número de puntos posible..</li>
+                </ol>
+        </ul>
+        <br>
+        <h1>Velocidad de nivelación</h1>
+        <br>
+        <ol>
+            <li>Cada habilidad tiene un modificador de velocidad de nivelación dependiendo de cuántos puntos de habilidad completos se hayan ganado recientemente en la incursión:</li>
+                <ol>
+                    <br>
+                    <li><span class="verde">129%</span>: Antes del primer punto de habilidad, la velocidad de nivelación es del <span class="verde">129%</span> (indicada por una flecha Habilidad de flecha azul).</li>
+                    <br>
+                    <li><span class="amarillo">100%</span>: Después del primer punto de habilidad, la velocidad de nivelación es normal o <span class="amarillo">100%</span> (denotada por la falta de una flecha).</li>
+                    <br>
+                    <li><span class="rojo">< 100%</span>: Después de los primeros 2 puntos de habilidad, la velocidad de nivelación se calcula utilizando la fórmula 0.6 ^ (Puntos ganados - 1) * 100, donde los puntos ganados se redondean al dígito más cercano (por ejemplo, 0.6 ^ (2 - 1) * 100 = 60%; denotado por una flecha Habilidad de flecha roja).</li>
+                    <br>
+                </ol>
+            <li>Después de no ganar ningún punto de habilidad durante 200 segundos, el modificador se restablece para esa habilidad. Ten en cuenta que, a diferencia del inicio de la incursión, el contador de puntos ganados se establece en 1 en este caso, lo que significa que no comienzas con el modificador 129% sino con el modificador 100%</li>
+          </ol>
+    </div>
+    <br>
 </body>
 </html>

@@ -4,119 +4,128 @@
 */
 
 *{
-    margin: 0px;
-    box-sizing: border-box;
-  }
+  margin: 0px;
+  box-sizing: border-box;
+}
   
   /* Barra de categorias */
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position:0; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position:0; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
   
   /* Enlances dentro de la barra */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
   
   /* Cambiar el color de la barra al poner el raton */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
   
   /* Contenido de Main */
-  .main {
-    margin-top: 30px; /* Agregar un margen superior para evitar la superposición de contenido */
-  }
+.main {
+  margin-top: 30px; /* Agregar un margen superior para evitar la superposición de contenido */
+}
 
-  .top,.top2,.top3,footer{
-    background-color: #000000;
-    text-align: center;
-    padding: 10px;
-    color: #9A8866;
-    border: 5px solid #423B2C
-  }
+.top,footer{
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+  color: #9A8866;
+  border: 5px solid #423B2C
+}
 
-  h2{
-    border-bottom: 3px solid #9A8866;
-    font-size: 24px;
-    font-weight: 500;
-    overflow: hidden;
-    padding: 6px 0;
-    color: white;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+h2{
+  border-bottom: 3px solid #9A8866;
+  font-size: 24px;
+  font-weight: 500;
+  overflow: hidden;
+  padding: 6px 0;
+  color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
-  header{
-    font-size: 20px;
-  }
+header{
+  font-size: 20px;
+}
 
-  body{
-    background-image: url(./img/machine-kalash-battlestate-games-escape-from-tarkov-eft-hd-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+body{
+  background-image: url(./img/machine-kalash-battlestate-games-escape-from-tarkov-eft-hd-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "cabeza";
+}
 
-  .texto1,.texto2,.texto3,.texto4,.texto5{
-    background-color: #333333;
-    margin-left: 80px;
-    margin-right: 80px;
-    padding: 20px;
-    color: #9A8866;
-    opacity: 0.9;
-  }
+.texto1,.texto2,.texto3,.texto4,.texto6{
+  background-color: #333333;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 20px;
+  color: #9A8866;
+  opacity: 1;
+}
 
-  ul{
-    list-style-type: circle;
-  }
+.texto5{
+  background-color: #333333;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 20px;
+  color: #9A8866;
+}
+
+ul{
+  list-style-type: circle;
+}
 
   /*LA TABLA*/
 
-  table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
-  }
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
 
-  tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-  }
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
 
-  tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
 }
 
 td {
-    display: table-cell;
-    vertical-align: inherit;
+  display: table-cell;
+  vertical-align: inherit;
 }
 
 div.flotadorizq{
-    float: left;
-    clear: left;
+  float: left;
+  clear: left;
 }
 
 div.flotadorder{
-    float: right;
-    clear: right;
-    opacity: 1;
+  float: right;
+  clear: right;
+  opacity: 1;
 }
 
 table.flotadorder{
@@ -143,11 +152,11 @@ tr{
 }
 
 th{
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    border: 2px solid #9A8866;
-    padding: 10px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  border: 2px solid #9A8866;
+  padding: 10px;
 }
 
 .precio{
@@ -156,4 +165,39 @@ th{
   font-weight: bold;
   border: 2px solid #9A8866;
   padding: 5px;
+}
+
+.audio{
+  clear: right;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+/*apartado de textos*/
+h1{
+  font-size: large;
+}
+
+.verde{
+  color: green;
+}
+
+.amarillo{
+  color: yellow;
+}
+
+.rojo{
+  color: red;
+}
+
+/*link para las paginas*/
+a{
+color: white;
+}
+
+/*fuente de letras*/
+@font-face {
+  font-family: "cabeza";
+  src: url(./Texto/CrimsonText-Bold.ttf);
 }

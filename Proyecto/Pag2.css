@@ -1,0 +1,90 @@
+/*
+    Linas Cijunskis Dodonova
+    26 de Noviembre de 2022
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Barra de categorias */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position:0; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Enlances dentro de la barra */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /* Cambiar el color de la barra al poner el raton */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Contenido de Main */
+  .main {
+    margin-top: 30px; /* Añadir contenido por encima del overlay */
+  }
+
+  body{
+    background-image: url(./img/1510745954_backgroundskullEFT4k.jpg.31eec77c22ea254761ae915ed94aa277.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "cabeza";
+  }
+
+  header{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    color: #9A8866;
+    border: 5px solid #423B2C
+  }
+
+  .texto1,.texto2,.texto3,.texto4{
+    background-color: #333333;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    color: #9A8866;
+    opacity: 1;
+  }
+
+  h2{
+    border-bottom: 3px solid #9A8866;
+    font-size: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 6px 0;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  ul{
+    list-style-type: circle;
+  }
+
+  /*Demostracion de mal funcionamiento de armas*/
+  .video{
+    position: static;
+    overflow: hidden;
+}
+
+/*fuente de letras*/
+@font-face {
+  font-family: "cabeza";
+  src: url(./Texto/CrimsonText-Bold.ttf);
+}
