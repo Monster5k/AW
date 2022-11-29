@@ -1,0 +1,51 @@
+/*
+    Autor: Kevin Flores
+    15 de Noviembre del 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    font-style: oblique;
+}
+
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Deg{
+    background-image: linear-gradient(to bottom,rgb(103, 103, 196),rgb(190, 114, 114));
+    color: white;
+}
+
+.Imagen img{
+    width: 90%;
+}
+
+th{
+    background-image: url(./Multimedia/IMG/Fondo\ Circuitos.jpg);
+    color: white;
+}
+
+
+caption{
+    padding-top: 20px;
+    font-style: italic;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

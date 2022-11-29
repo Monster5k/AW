@@ -15,10 +15,11 @@
 }
 
 body{
-    background-image: url(./Multimedia/IMG/Fondo\ Mundial\ 2022.jpg);
+    background-image: url(./IMG/qatar.jpg);
     height: 1600px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header,footer{

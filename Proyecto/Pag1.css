@@ -7,7 +7,11 @@
   margin: 0px;
   box-sizing: border-box;
 }
-  
+
+html{
+  scroll-behavior: smooth;
+}
+
   /* Barra de categorias */
 .navbar {
   overflow: hidden;
@@ -66,6 +70,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "cabeza";
+  background-attachment: fixed;
 }
 
 .texto1,.texto2,.texto3,.texto4,.texto6{
@@ -201,3 +206,4 @@ color: white;
   font-family: "cabeza";
   src: url(./Texto/CrimsonText-Bold.ttf);
 }
+

@@ -43,6 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "cabeza";
+    background-attachment: fixed;
   }
 
   header{

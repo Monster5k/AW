@@ -1,0 +1,74 @@
+/*
+    Linas Cijunskis Dodonova
+    29 de Noviembre de 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+ 
+
+body{
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+ }
+
+ section{
+    padding: 50px 0px 50px 0px;
+    text-align: justify;
+ }
+
+ section a{
+    padding: 25px;
+ }
+
+ h1{
+    background-color: beige;
+ }
+
+ p{
+    padding: 25px;
+    background-color: azure;
+ }
+ 
+ nav{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+ }
+  
+ @media (min-width: 600px){
+    nav{
+        font-size: 2em;
+    }
+    nav a{
+        padding: 25px;
+        background-color: brown;
+    }
+ }
+  
+ @media (max-width:600px) and (min-width: 400px){
+    nav{
+        grid-auto-flow: row;
+        font-size: 1.5em;
+        background-color:burlywood;
+    }
+    nav a{
+        padding: 15px;
+    }  
+ }
+  
+ @media (max-width:400px) {
+    nav{
+        grid-auto-flow: row;
+        font-size: 1em;
+        background-color: green;
+    }
+ }
+ 
