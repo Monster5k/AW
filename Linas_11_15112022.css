@@ -1,5 +1,5 @@
 /*
-    Autor: Kevin Flores
+    Linas CIjunskis Dodonova
     15 de Noviembre del 2022
 */
 
@@ -10,7 +10,7 @@
 
 h1{
     text-align: center;
-    font-style: oblique;
+    font-style: italic;
 }
 
 table{
@@ -22,8 +22,8 @@ table{
     box-shadow: 5px 5px 5px black;
 }
 
-.Deg{
-    background-image: linear-gradient(to bottom,rgb(103, 103, 196),rgb(190, 114, 114));
+.col2{
+    background-color: #51114C;
     color: white;
 }
 
@@ -48,4 +48,9 @@ td,th{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.col{
+    background-color: #261A5F;
+    color: white;
 }
