@@ -1,0 +1,69 @@
+/*
+    Linas Cijunskis Dodonova
+    02/12/2022
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+  
+/* Barra de categorias */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position:0; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+  
+/* Enlances dentro de la barra */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+/* Cambiar el color de la barra al poner el raton */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Fondo de pagina*/
+
+body{
+    background-image: url(./img/the-city-battlestate-games-escape-from-tarkov-eft-russia-2028-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "cabeza";
+    background-attachment: fixed;
+    height: 1600px;
+}
+
+video{
+    top: 0;
+    width: 100%;
+}
+
+header{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    color: #9A8866;
+    border: 5px solid #423B2C
+}
+
+/*Comentario del Video*/
+
+.texto1{
+    background-color: #333333;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    color: #9A8866;
+    opacity: 1;
+  }
