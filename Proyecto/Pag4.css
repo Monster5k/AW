@@ -12,9 +12,9 @@
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position:0; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position:0; 
+    top: 0; 
+    width: 100%; 
 }
   
 /* Enlances dentro de la barra */
@@ -43,17 +43,18 @@ body{
   }
 
   /*Cajitas de texto*/
-  .texto1{
+  .texto1,.texto2{
     background-color: #333333;
     margin-left: 80px;
     margin-right: 80px;
     padding: 20px;
     color: #9A8866;
-    opacity: 1;
+    opacity: 0.8;
+    margin-bottom: 80px;
   }
 
 /*Formulario*/
-/* Style inputs, select elements and textareas */
+/* Estilo el input y zona de escribir */
 input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
@@ -63,14 +64,14 @@ input[type=text], select, textarea{
     resize: vertical;
   }
   
-  /* Style the label to display next to the inputs */
+  /* Estilo de los nombres para que tengan paddings  */
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
   
-  /* Style the submit button */
-  input[type=submit] {
+  /* Estilo de comentar */
+  input[type=Comentar] {
     background-color: #9A8866;
     color: #333333;
     padding: 12px 20px;
@@ -80,7 +81,7 @@ input[type=text], select, textarea{
     float: right;
   }
   
-  /* Style the container */
+  /* Estilo de los containers */
   .container {
     border-radius: 5px;
     padding: 20px;
@@ -100,18 +101,23 @@ input[type=text], select, textarea{
     margin-top: 6px;
   }
   
-  /* Clear floats after the columns */
+  /* Limpiar las columnas vacias */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* Cambiar el tamaño del navegador al movil */
   @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
+    .col-25, .col-75, input[type=Comentar] {
       width: 100%;
       margin-top: 0;
     }
   }
   
+  /*fuente de letras*/
+@font-face {
+  font-family: "cabeza";
+  src: url(./Texto/CrimsonText-Bold.ttf);
+}
